@@ -26,6 +26,6 @@ OBJ_NAME = GameExperiment
 
 #This is the target that compiles our executable
 all: $(OBJS)
-	$(CC) $(OBJS) $(SDL_CFLAGS) $(SDL_LDFLAGS) -o $(OBJ_NAME)
+	$(CC) $(OBJS) $(SDL_CFLAGS) $(SDL_LDFLAGS) -o $(OBJ_NAME).exe
 clean:
 	rm -f $(OBJ_NAME) *.o
